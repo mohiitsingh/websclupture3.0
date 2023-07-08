@@ -209,17 +209,19 @@
         flex-direction: column;
         position: absolute;
         background-color: #9fb3bbfd;
-        top: 100%;
+        top: -200%;
         min-width: 100%;
-        left: -200%;
+        left: 0;
         text-align: center;
         padding-block: 15px;
         gap: 5px;
         transition: 0.3s ease-in-out;
+        border-radius: 0 0 15px 15px;
     }
 
     .navItems.active {
-        left: 0;
+        /* left: 0; */
+        top: 100%;
     }
 
     .hamburger_div {
