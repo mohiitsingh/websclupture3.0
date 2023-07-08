@@ -1,0 +1,416 @@
+:root {
+    --container-width-lg: 80%;
+    --container-width-md: 90%;
+    --container-width-sm: 94%;
+
+    --color1: #618695;
+    --color2: #F6F5F5;
+    --color3: #252623;
+    --color4: #484744;
+    --color5: #EEE7DF;
+}
+
+@media screen and (max-width: 1024px) {
+    .logo {
+        padding-left: 50px;
+    }
+
+    /* ***************************** HERO ******************************* */
+    .hero-left {
+        padding: 4rem 0 0 4rem;
+    }
+
+    /* ***************************** SERVICES SECTION ******************************* */
+    .card {
+        width: 29%;
+    }
+
+    /* ***************************** FEATURES SECTION ******************************* */
+    .feature-card {
+        padding: 5px;
+    }
+
+    .image-div {
+        margin: 0.2rem auto;
+        height: 100px;
+        /* background-color: red; */
+    }
+
+    .feature-card div h4 {
+        font-size: 20px;
+        line-height: 25.14px;
+        margin-bottom: 0.4rem;
+    }
+
+    /* ***************************** BANNER SECTION ******************************* */
+    .banner_div {
+        padding: 0 1rem;
+    }
+
+    /* ***************************** OFFERING SECTION ******************************* */
+
+    .offering-card {
+        width: 30%;
+        background-color: var(--color2);
+        color: var(--color4);
+        border-radius: 8px;
+        padding: 1rem;
+        height: 320px;
+    }
+
+    /* ***************************** BANNER 2 ******************************* */
+    .banner2 {
+        padding: 4rem 2rem;
+        gap: 12px;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 850px) {
+    .logo {
+        padding-left: 0;
+    }
+
+    /* ***************************** HERO ******************************* */
+
+    .hero-left {
+        padding: 1rem 0 0 0rem;
+    }
+
+    .h1-div h1 {
+        font-size: 2.3rem;
+        margin-bottom: 1rem;
+    }
+
+    /* ***************************** SERVICES SECTION ******************************* */
+    .service-2 {
+        justify-content: space-between;
+        /* background-color: red; */
+    }
+
+    .card {
+        width: 30%;
+    }
+
+    /* ***************************** FEATURES SECTION ******************************* */
+    .feature-section {
+        /* background-color: yellow; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .feature-card {
+        width: 50%;
+        padding: 10px;
+    }
+
+    .image-div {
+        width: 100%;
+        height: 180px;
+        margin: 0.5rem auto;
+    }
+
+    /* ***************************** BANNER SECTION ******************************* */
+    .banner_div {
+        height: auto;
+        flex-direction: column;
+        gap: 20px;
+        margin: 1.5rem auto;
+    }
+
+    .banner_div input[type="text"],
+    input[type="email"] {
+        width: 80%;
+    }
+
+    textarea {
+        width: 80%;
+    }
+
+    /* ***************************** BANNER 2 ******************************* */
+    .banner2 {
+        /* background-color: red; */
+        padding: 4rem 1rem;
+    }
+
+    .first-heading {
+        font-size: 15px;
+    }
+
+    .second-heading {
+        font-size: 18px;
+    }
+
+    /* ******************************** FOOTER *********************************8 */
+    .footer-1 input {
+        width: 95%;
+        height: 35px;
+    }
+
+    .footer-1 button {
+        height: 35px;
+    }
+
+    .footer-2 {
+        gap: 10px;
+        padding: 3.2rem 0;
+    }
+
+    .footer-3 {
+        width: 28%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 0.5rem;
+        gap: 10px;
+    }
+
+
+    .footer-3 span {
+        color: var(--color1);
+        height: 10px;
+        padding-right: 5px;
+    }
+
+    .footer-3 h4,
+    .footer-4 h4 {
+        text-align: left !important;
+        font-size: 1.2rem;
+    }
+
+    .footer-4 {
+        width: 24%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 0.9rem;
+        padding: 1rem 0.5rem;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        justify-content: space-around;
+    }
+
+    .contact {
+        flex-basis: 90%;
+    }
+
+    .navItems {
+        flex-direction: column;
+        position: absolute;
+        background-color: #9fb3bbfd;
+        top: 100%;
+        min-width: 100%;
+        left: -200%;
+        text-align: center;
+        padding-block: 15px;
+        gap: 5px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .navItems.active {
+        left: 0;
+    }
+
+    .hamburger_div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 60px;
+        cursor: pointer;
+    }
+
+    /* ***************************** HERO ******************************* */
+
+    .hero-left {
+        padding: 1rem 0 0 1rem;
+        /* background-color: red; */
+    }
+
+    .h1-div h1 {
+        font-size: 2rem;
+    }
+
+    /* ***************************** OFFERING SECTION ******************************* */
+    .offering-section {
+        display: flex;
+        /* background-color: red; */
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .offering-card {
+        width: 50%;
+        height: 300px;
+    }
+
+    /* ***************************** BANNER 2 ******************************* */
+    .banner2 {
+        padding: 4rem 0.5rem;
+    }
+
+    .first-heading {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .second-heading {
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+
+
+}
+
+@media screen and (max-width: 430px) {
+    .hamburger_div {
+        margin-right: 0;
+    }
+
+    .contact {
+        display: none;
+    }
+
+    /* ***************************** HERO ******************************* */
+    .hero {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .hero-left {
+        width: 100%;
+        padding: 0;
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+
+    .h1-div h1 {
+        font-size: 1.8rem;
+        line-height: 40px;
+        margin-bottom: 0.5rem;
+    }
+
+    .hero-right {
+        width: 100%;
+    }
+
+    /* ***************************** SERVICES SECTION ******************************* */
+    .service-2 {
+        flex-direction: column;
+        /* background-color: red; */
+        align-items: center;
+        gap: 20px;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    /* ***************************** FEATURES SECTION ******************************* */
+    .features h2 {
+        margin-top: 1rem;
+        font-size: 25px;
+        line-height: 26px;
+    }
+
+    .feature-card {
+        width: 80%;
+        padding: 10px;
+    }
+
+    .image-div {
+        height: 150px;
+    }
+
+    /* ***************************** BANNER SECTION ******************************* */
+    .banner {
+        padding-bottom: 1rem;
+    }
+
+    .banner h2 {
+        padding-top: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .banner_div {
+        margin: 1rem 0;
+    }
+
+    /* ***************************** OFFERING SECTION ******************************* */
+    .offering-section {
+        display: flex;
+        /* background-color: red; */
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .offering-card {
+        width: 80%;
+        height: 280px;
+    }
+
+    /* ***************************** BANNER 2 ******************************* */
+    .banner2 {
+        /* padding: 4rem 0.5rem; */
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    /* ******************************** FOOTER *********************************8 */
+    .footer_container {
+        flex-direction: column;
+        /* background-color: rebeccapurple; */
+        gap: 1.5rem;
+    }
+
+    .footer-1 {
+        width: 100%;
+    }
+
+    .footer-2 {
+        width: 100%;
+        align-items: center;
+        padding: 0;
+    }
+
+    .footer-3 {
+        width: 100%;
+        align-items: center;
+        padding: 0 1rem;
+    }
+
+    .footer-4 {
+        width: 100%;
+        align-items: center;
+    }
+
+
+    .footer-3 h4,
+    .footer-4 h4 {
+        text-align: left !important;
+        font-size: 1.2rem;
+        border-bottom: 1px solid white;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    /* ***************************** OFFERING SECTION ******************************* */
+    .offering-card div h4 {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+}
