@@ -86,7 +86,7 @@
     align-items: center;
     background: rgba(26, 26, 26, 0.396);
     cursor: pointer;
-    z-index: 8;
+    z-index: 1;
 }
 
 .pre-btn {
