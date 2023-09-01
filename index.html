@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="test.css">
+
+    
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -46,7 +52,7 @@
         <header class="hero" id="home">
             
             <div class="hero-left">
-                <div class="h1-div">
+                <div class="h1-div animated slideInDown">
                     <h1>"Sculpting Your
                         <br>
                         Digital Presence"
@@ -58,17 +64,17 @@
                     </p>
                 </div>
                 <div class="btn-container">
-                    <div class="btn btn-1">
-                        <a href="tel:+91 9424457498">Get In Touch</a>
+                    <div class="btn btn-1 animated slideInLeft">
+                        <a href="tel:+91 9424457498"><i class="fa-solid fa-phone"></i> Get In Touch</a>
                     </div>
-                    <div class="btn btn-2">
+                    <div class="btn btn-2 animated slideInRight">
                         <a href="">Get a Quotation</a>
                     </div>
                 </div>
             </div>
             <!-- hero right -->
             <div class="hero-right">
-                <div class="hero-imgDiv">
+                <div class="hero-imgDiv animated slideInRight">
                     <!-- <img src="assets/heroImg.png" alt="heroImg" loading="lazy"> -->
                     <img src="assets/8.webp" alt="heroImg" loading="lazy">
                 </div>
@@ -79,12 +85,12 @@
         
         <!-- ================== END OF HERO SECTION ========================== -->
 
-        <section class="services" id="services">
+        <section class="services wow fadeInUp" id="services" >
             <div class="service-1">
                 <h2>Our Services</h2>
             </div>
             <div class="service-2">
-                <div class="card">
+                <div class="card wow fadeInUp" data-wow-delay="0.1s">
                     <div class="card-img">
                         <!-- <img src="./assets/Img1.png" alt=""> -->
                         <img src="./assets/1.webp" alt="">
@@ -99,7 +105,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card wow fadeInUp" data-wow-delay="0.2s">
                     <div class="card-img">
                         <!-- <img src="./assets/Img2.png" alt=""> -->
                         <img src="./assets/2.webp" alt="">
@@ -114,7 +120,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card wow fadeInUp" data-wow-delay="0.3s">
                     <div class="card-img">
                         <!-- <img src="./assets/Img1.png" alt=""> -->
                         <img src="./assets/3.webp" alt="">
@@ -134,7 +140,7 @@
         </section>
         <!-- ================== END OF SERVICES SECTION ========================== -->
 
-        <section class="features">
+        <section class="features wow fadeInUp" data-wow-delay="0.1s">
             <p>WHY WEBSCLUPTURE</p>
             <h2>Creating websites that drive results <br>
                 and exceed expectations
@@ -206,7 +212,7 @@
         </section>
         <!-- ================== END OF FEATURES SECTION ========================== -->
 
-        <section class="banner">
+        <section class="banner wow fadeInUp" data-wow-delay="0.1s">
             <h2>
                 Get a Quotation for your Project
             </h2>
@@ -221,7 +227,7 @@
         </section>
         <!-- ================== END OF BANNER ========================== -->
 
-        <section class="product"> 
+        <section class="product wow fadeInUp" data-wow-delay="0.1s"> 
             <h2 class="product-category">Our Portfolio</h2>
             <button class="pre-btn"><img src="/assets/arrow.png" alt=""></button>
             <button class="nxt-btn"><img src="/assets/arrow.png" alt=""></button>
@@ -421,7 +427,7 @@
         </div> -->
         <!-- ================== END OF OFFERING SECTION ========================== -->
 
-        <div class="banner2" id="contact">
+        <div class="banner2 wow fadeInUp" id="contact" data-wow-delay="0.1s">
             <div>
                 <div class="first-heading">
                     LET’S WORK TOGETHER
@@ -449,7 +455,7 @@
         </div>
         <!-- ================== END OF BANNER 2 ========================== -->
 
-        <section class="product"> 
+        <section class="product wow fadeInUp" data-wow-delay="0.1s"> 
             <h2 class="product-category">What Our Client Say</h2>
             <button class="pre-btn"><img src="/assets/arrow.png" alt=""></button>
             <button class="nxt-btn"><img src="/assets/arrow.png" alt=""></button>
@@ -586,7 +592,7 @@
         </section>
         <!-- ================== END OF OUR CLIENT SAY SECTION ========================== -->
 
-        <footer class="footer">
+        <footer class="footer wow fadeInUp" data-wow-delay="0.1s">
             <div class="footer_container">
     
                 <div class="footer-1  ">
@@ -626,6 +632,16 @@
     
         </footer>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    
+    <!-- <script src="lib/easing/easing.min.js"></script> -->
+    <!-- <script src="lib/waypoints/waypoints.min.js"></script> -->
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 
     <script src="script.js"></script>
 </body>
