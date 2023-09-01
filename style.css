@@ -294,7 +294,7 @@ textarea {
 }
 
 .feature-card:hover {
-    box-shadow: 0px 0px 15px var(--color2);
+    box-shadow: 0px 0px 35px var(--color3);
     transform: translateY(-5px);
     transition: var(--transition);
 }
