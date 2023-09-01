@@ -21,7 +21,7 @@
 }
 
 .product-container {
-    padding: 0 10vw;
+    padding: 1vw 10vw;
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
@@ -84,7 +84,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(26, 26, 26, 0.396);
+    /* background: rgba(26, 26, 26, 0.396); */
+    background-color: rgba(240, 248, 255, 0.274);
     cursor: pointer;
     z-index: 1;
 }

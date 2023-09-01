@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500&family=Montserrat:wght@300;400;500;600;700;800;900&family=Mukta:wght@400;600;800&family=Source+Sans+3:wght@500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&display=swap');
 
 
 * {
@@ -32,6 +33,11 @@ h3 {
 
 a {
     color: var(--color2);
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
 }
 
 body {
@@ -97,7 +103,7 @@ textarea {
     justify-content: space-evenly;
 }
 
-.navItems li a:hover {
+.navItems li:hover a {
     border-bottom: 2px solid var(--color5);
 }
 
@@ -128,6 +134,10 @@ textarea {
 .hamburger img {
     height: 30px;
     width: 40px;
+}
+
+#home {
+    font-family: 'Noto Sans', sans-serif;
 }
 
 
@@ -189,6 +199,7 @@ textarea {
 
 .hero-imgDiv {
     width: 100%;
+    padding: 20px;
 }
 
 .hero-imgDiv img {
