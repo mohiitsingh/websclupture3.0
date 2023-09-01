@@ -31,3 +31,16 @@ productContainers.forEach((item, i) => {
         item.scrollLeft -= containerWidth;
     })
 })
+
+
+//whatsapp
+
+document.getElementById("get-quote-button2").addEventListener("click", function() {
+    var phoneNumber = "9424457498"; // Replace with the actual phone number
+    var instantQuoteMessage = "Thank you for requesting an instant quote! Please tell us How we can help ?";
+
+    var encodedMessage = encodeURIComponent(instantQuoteMessage);
+    var whatsappUrl = "https://wa.me/" + phoneNumber + "?text=" + encodedMessage;
+
+    window.open(whatsappUrl, "_blank");
+});
