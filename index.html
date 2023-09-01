@@ -9,11 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="test.css">
-
-    
-    <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
@@ -52,7 +48,7 @@
         <header class="hero" id="home">
             
             <div class="hero-left">
-                <div class="h1-div animated slideInDown">
+                <div class="h1-div animated fadeInDown">
                     <h1>"Sculpting Your
                         <br>
                         Digital Presence"
@@ -68,13 +64,13 @@
                         <a href="tel:+91 9424457498"><i class="fa-solid fa-phone"></i> Get In Touch</a>
                     </div>
                     <div class="btn btn-2 animated slideInRight">
-                        <a href="" id="get-quote-button2">Get a Quotation</a>
+                        <a href="" id="get-quote-button2">Get a Quotation <i class="fa-brands fa-whatsapp"></i></a>
                     </div>
                 </div>
             </div>
             <!-- hero right -->
             <div class="hero-right">
-                <div class="hero-imgDiv animated slideInRight">
+                <div class="hero-imgDiv animated zoomIn">
                     <!-- <img src="assets/heroImg.png" alt="heroImg" loading="lazy"> -->
                     <img src="assets/8.webp" alt="heroImg" loading="lazy">
                 </div>
@@ -85,7 +81,7 @@
         
         <!-- ================== END OF HERO SECTION ========================== -->
 
-        <section class="services wow fadeInUp" id="services" >
+        <section class="services wow fadeInUpBig" data-wow-delay="0.1s" id="services" >
             <div class="service-1">
                 <h2>Our Services</h2>
             </div>
@@ -140,7 +136,7 @@
         </section>
         <!-- ================== END OF SERVICES SECTION ========================== -->
 
-        <section class="features wow fadeInUp" data-wow-delay="0.1s">
+        <section class="features wow swing" data-wow-delay="0.1s">
             <p>WHY WEBSCLUPTURE</p>
             <h2>Creating websites that drive results <br>
                 and exceed expectations
@@ -212,22 +208,25 @@
         </section>
         <!-- ================== END OF FEATURES SECTION ========================== -->
 
-        <section class="banner wow fadeInUp" data-wow-delay="0.1s">
+        <section class="banner wow zoomIn" data-wow-delay="0.1s">
             <h2>
                 Get a Quotation for your Project
             </h2>
     
-            <div class="banner_div">
-                <input type="text" name="" id="" placeholder="Name">
-                <input type="email" name="" id="" placeholder="Email">
-                <textarea name="" id="" cols="30" rows="1" placeholder="Describe  Project Requirements"></textarea>
-                <button>Get Quotation</button>
-            </div>
+            <form action="" >
+                <div class="banner_div">
+                    <input type="text" name="" id="" placeholder="Name" required autocomplete="off">
+                    <input type="email" name="" id="email" placeholder="Email" required autocomplete="off">
+                    <textarea name="" id="" cols="30" rows="1" placeholder="Describe  Project Requirements" required></textarea>
+                    <input type="submit" value="Get Quotation">
+                    <!-- <button>Get Quotation</button> -->
+                </div>
+            </form>
     
         </section>
         <!-- ================== END OF BANNER ========================== -->
 
-        <section class="product wow fadeInUp" data-wow-delay="0.1s"> 
+        <section class="product wow zoomIn" data-wow-delay="0.1s"> 
             <h2 class="product-category">Our Portfolio</h2>
             <button class="pre-btn"><img src="/assets/arrow.png" alt=""></button>
             <button class="nxt-btn"><img src="/assets/arrow.png" alt=""></button>
@@ -427,7 +426,7 @@
         </div> -->
         <!-- ================== END OF OFFERING SECTION ========================== -->
 
-        <div class="banner2 wow fadeInUp" id="contact" data-wow-delay="0.1s">
+        <div class="banner2 wow fadeInLeft" id="contact" data-wow-delay="0.1s">
             <div>
                 <div class="first-heading">
                     LET’S WORK TOGETHER
@@ -455,7 +454,7 @@
         </div>
         <!-- ================== END OF BANNER 2 ========================== -->
 
-        <section class="product wow fadeInUp" data-wow-delay="0.1s"> 
+        <section class="product wow fadeInUp" data-wow-delay="0.1s" > 
             <h2 class="product-category">What Our Client Say</h2>
             <button class="pre-btn"><img src="/assets/arrow.png" alt=""></button>
             <button class="nxt-btn"><img src="/assets/arrow.png" alt=""></button>
@@ -592,22 +591,22 @@
         </section>
         <!-- ================== END OF OUR CLIENT SAY SECTION ========================== -->
 
-        <footer class="footer wow fadeInUp" data-wow-delay="0.1s">
+        <footer class="footer">
             <div class="footer_container">
     
-                <div class="footer-1  ">
+                <div class="footer-1  wow fadeInLeft" data-wow-delay="0.2s">
                     <input type="text" name="" id="" placeholder="Name">
                     <input type="email" name="" id="" placeholder="Email">
                     <button>Contact Us</button>
                 </div>
-                <div class="footer-2  ">
+                <div class="footer-2  wow fadeInLeft" data-wow-delay="0.1s">
                     <a href="#">About</a>
                     <a href="#">Contact Us</a>
                     <a href="#portfolio">Portfolio</a>
                     <a href="#">Terms and Condition</a>
                     <a href="#">FAQ's</a>
                 </div>
-                <div class="footer-3 ">
+                <div class="footer-3 wow fadeInRight" data-wow-delay="0.1s">
                     <h4>Contact Us</h4>
                     <p>WebSclupture - a/27 Subhash
                         Colony, B-sector Bhopal,
@@ -617,7 +616,7 @@
                     <p><span>&#128222;</span> +91-6261541723</p>
                     <p><span>&#9993;</span> websclupture@gmail.com</p>
                 </div>
-                <div class="footer-4 ">
+                <div class="footer-4 wow fadeInRight" data-wow-delay="0.2s">
                     <h4>Our Services</h4>
                     <p>Web Designing</p>
                     <p>Graphics Design</p>
@@ -628,7 +627,7 @@
     
             </div>
     
-            <h4>All Rights Reserved © <a href="https://www.websculpture.in/">WebSclupture</a></h4>
+            <h4 class="wow fadeInUp" data-wow-delay="0.3s">All Rights Reserved © <a href="https://www.websculpture.in/">WebSclupture</a></h4>
     
         </footer>
     </div>
@@ -637,12 +636,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="lib/wow/wow.min.js"></script>
     
-    <!-- <script src="lib/easing/easing.min.js"></script> -->
-    <!-- <script src="lib/waypoints/waypoints.min.js"></script> -->
-
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-
     <script src="script.js"></script>
 </body>
 
