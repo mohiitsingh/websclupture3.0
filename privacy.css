@@ -1,0 +1,21 @@
+.privacy{
+    padding: 2rem;
+}
+
+.privacy h1{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.privacy p{
+    margin-bottom: 1.5rem;
+    line-height: 25px;
+    word-spacing: 1px;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 600px) {
+    .privacy{
+        padding: 1rem;
+    }
+}

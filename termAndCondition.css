@@ -1,0 +1,18 @@
+.termsAndCondition{
+    padding: 2rem;
+}
+
+.termsAndCondition h1{
+    text-align: center;
+}
+
+.termsAndCondition p {
+    margin: 1rem 0;
+    word-spacing: 1px;
+}
+
+@media screen and (max-width: 600px) {
+    .termsAndCondition{
+        padding: 1rem;
+    }
+}
